@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from '../../components/footer/footer';
+import Header from '../../components/header/header';
 
 class DetailProperty extends React.Component{
      render() {
           return (
-<div>
+            <div>
+              <Header/>
   <section>
     {/* Slider main container*/}
     <div className="swiper-container detail-slider slider-gallery">
@@ -414,7 +417,8 @@ class DetailProperty extends React.Component{
         <div className="swiper-pagination" />
       </div>
     </div>
-  </div>
+              </div>
+              <Footer/>
 </div>
 
           )

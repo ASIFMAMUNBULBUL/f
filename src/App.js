@@ -14,6 +14,7 @@ import AddStepFive from './pages/addproperty/addstepfive'
 import UserPersonal from './pages/useraccount/userpersonal'
 import Userprofile from './pages/useraccount/userprofile'
 import Usersecurity from './pages/useraccount/usersecurity'
+import DetailProperty from './pages/property/detail'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <div>
       
       <Router>
-        <Route path='/home' exact component={Home} />
+        <Route path='/' exact component={Home} />
         <Route path='/login' exact component={Signin} />
         <Route path='/signup' exact component={Signup} />
         <Route path='/faq' exact component={Faqs} />
@@ -35,7 +36,8 @@ function App() {
         <Route path='/addpropertystep5' exact component={AddStepFive}/>
         <Route path='/userpersonaldetail' exact component={UserPersonal} />
         <Route path='/userprofile' exact component={Userprofile} />
-        <Route path='/usersecurity' exact component={Usersecurity}/>
+        <Route path='/usersecurity' exact component={Usersecurity} />DetailProperty
+        <Route path='/detailproperty' exact component={DetailProperty}/>
      </Router>
     </div>
   );
