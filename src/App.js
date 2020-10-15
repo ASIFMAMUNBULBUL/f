@@ -36,7 +36,7 @@ function App() {
         <Route path='/addpropertystep5' exact component={AddStepFive}/>
         <Route path='/userpersonaldetail' exact component={UserPersonal} />
         <Route path='/userprofile' exact component={Userprofile} />
-        <Route path='/usersecurity' exact component={Usersecurity} />DetailProperty
+        <Route path='/usersecurity' exact component={Usersecurity} />
         <Route path='/detailproperty' exact component={DetailProperty}/>
      </Router>
     </div>
